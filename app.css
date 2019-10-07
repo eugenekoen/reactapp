@@ -51,6 +51,13 @@ body{
     font-weight: bolder;
 }
 
+#musoschedule ul li a{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 18px;
+    color: cyan;
+    text-decoration: none;
+}
+
 #line{
     height: 2px;
     background-color: rgba(184, 18, 18, 0.596);
@@ -129,5 +136,7 @@ table a{
         display: block;
         overflow-y: scroll;
         height: 600px;
+        overflow-x:scroll;
+        width: 580px;
     }
 }
