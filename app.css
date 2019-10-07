@@ -1,23 +1,23 @@
 body{
-margin: 0;
-padding: 0;
-background-image: url(splash.jpg);
-background-size: cover;
-height: 100vh;
-background-position: center;
-}
+    margin: 0;
+    padding: 0;
+    background-image: url(splash.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    }
 
 #navigation{
-height: 50px;
-width:100%;
-background-color: #fccecb;
-text-align: center;
-margin-top: -47px;
-font-size: 30px;
-line-height: 2.4;
-font-family: 'Montserrat', sans-serif; 
-font-weight: 500;
-}
+    height: 50px;
+    width:100%;
+    background-color: #fccecb;
+    text-align: center;
+    margin-top: -47px;
+    font-size: 30px;
+    line-height: 2.4;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 500;
+    }
 
 #list{
     background-color: rgba(255, 255, 255, 0);
@@ -25,7 +25,7 @@ font-weight: 500;
     font-size: 15px;
     max-width: 600px;
     margin-bottom: 80px;
-}
+}    
 
 #list h1{
     text-align: left;
@@ -51,70 +51,65 @@ font-weight: 500;
     font-weight: bolder;
 }
 
-#myTable tr td{
-    border: 1px solid rgba(161, 105, 105, 0.603);
-    background-color: rgba(56, 46, 46, 0);
-}
-
-#myTable th{
-    color: #e67070;
-    text-align: left;
-    font-size: 18px;
-    font-family: 'Montserrat',sans-serif;
-    border: 1px solid rgba(139, 104, 104, 0.301);
-    background-color: rgb(56, 46, 46);
-}
-
-#myTable{
-    width:400px;
-    height: 500px;
-    table-layout: fixed;
-}
-
-#myTable tr th{
-    width: 396px;
-}
-#myTable td{
-    color: rgb(255, 184, 184);
-    font-family: 'Montserrat' ,sans-serif;
-    user-select: none;
-}
-
-#myTable a{
-    text-decoration: none;
-    color: white;
-    font-family: 'Montserrat',sans-serif;
-    font-size: 15px;
+#line{
+    height: 2px;
+    background-color: rgba(184, 18, 18, 0.596);
+    margin-bottom: 20px;
 }
 
 #filter{
-    margin-left: 40px;
+    margin-left: 5px;
+    height: 500px;
 }
 
-#myInput{
-    max-width: 600px;
-    font-size: 18px;
-    font-family: 'Montserrat',sans-serif;
+#filter input{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+table{
+	border-collapse: collapse;
+	font-size: .95em;
+	font-family: 'Montserrat',sans-serif;
+	width: 600px;
+}
+
+table, th, td {
+    border: 1px solid rgba(76, 175, 79, 0.63);
+    padding: 8px;
+    text-align: left;
+    color: aqua;
+  }
+
+thead{
+    display: table-header-group;
+    vertical-align: middle;
 }
 
 tbody{
-    display: block;
-    overflow: scroll;
-    width: 400px;
-    height: inherit;
+	display: table-row-group;
+	vertical-align: middle;
 }
 
-tbody tr{
-    overflow: hidden;
-    white-space: nowrap;
+tr:nth-child(even) {background-color: #f2f2f200;}
+tr:nth-child(odd) {background-color: #f2f2f200;}
+
+th {
+  background-color: #4CAF50;
+  color: white;
 }
 
-
+table a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
 
 @media screen and (max-width: 600px){
-    #navigation{
-        width: 100%;
-    }    
+    #filter{
+        margin-left: 5px;
+        height: 500px;
+    }
     #list{
         width: 100%;
         margin-left: 0px;
@@ -130,23 +125,9 @@ tbody tr{
         padding-left: 5px;
     }
 
-    #filter{
-        margin-left: 5px;
-        height: 500px;
-    }
-    
-    #line{
-        height: 2px;
-        background-color: rgba(184, 18, 18, 0.596);
-        margin-bottom: 20px;
-    }
-
-    tbody{
+    table{
         display: block;
         overflow-y: scroll;
-        width: 400px;
-    }
-    tbody tr td{
-        width: 400px;
+        height: 600px;
     }
 }
