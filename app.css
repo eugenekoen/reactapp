@@ -117,6 +117,14 @@ table a{
     font-family: 'Montserrat', sans-serif;
 }
 
+audio { 
+    width: 250px; 
+    box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
+    border-radius: 80px;
+    transform: scale(1);
+    height:30px;
+  }
+
 @media screen and (max-width: 600px){
     #filter{
         margin-left: 5px;
