@@ -83,7 +83,8 @@ table{
 	border-collapse: collapse;
 	font-size: .95em;
 	font-family: 'Montserrat',sans-serif;
-	width: 600px;
+    width: 600px;
+    white-space: nowrap;
 }
 
 table, th, td {
