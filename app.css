@@ -58,8 +58,9 @@ body{
 #musoschedule ul li a{
     font-family: 'Montserrat',sans-serif;
     font-size: 18px;
-    color: cyan;
+    color: rgba(255, 52, 52, 0.966);
     text-decoration: none;
+
     
 }
 
@@ -76,7 +77,8 @@ body{
 
 #filter input{
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
+    background-color: honeydew;
 }
 
 table{
@@ -116,10 +118,6 @@ table a{
     text-decoration: none;
     color: white;
     font-family: 'Montserrat', sans-serif;
-}
-
-#songstable{
-    height: 250px;
 }
 
 audio { 
