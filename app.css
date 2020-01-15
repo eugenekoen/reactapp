@@ -118,6 +118,10 @@ table a{
     font-family: 'Montserrat', sans-serif;
 }
 
+#songstable{
+    height: 250px;
+}
+
 audio { 
     width: 250px; 
     box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
@@ -160,6 +164,6 @@ audio {
     }
 
     #songstable{
-        height: 270px;
+        height: 250px;
     }
 }
